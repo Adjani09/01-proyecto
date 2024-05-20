@@ -24,7 +24,7 @@ export default function LoginForm() {
         localStorage.setItem('loggedIn', 'true');
         localStorage.setItem('userDataEmail', JSON.stringify(email));
         localStorage.setItem('userDataPassword', JSON.stringify(password));
-        router.push('/dashboard');
+        router.push('/home');
       }
     } catch (error) {
       console.error('Error al validar el usuario:', error);

@@ -1,12 +1,29 @@
 'use client'
 
-import { HomeIcon } from '@heroicons/react/24/outline';
+import { HomeIcon, 
+    BuildingOffice2Icon, 
+    UsersIcon,
+    ArrowRightStartOnRectangleIcon,
+    LockClosedIcon,
+    InformationCircleIcon,
+    ChartBarIcon,
+    EnvelopeIcon,
+    ClipboardDocumentListIcon  } from '@heroicons/react/24/outline';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { clsx } from "clsx";
 
+
 const links = [
-    { name: 'Home', href: '/dashboard', icon: HomeIcon },
+    { name: 'Home', href: '/home', icon: HomeIcon },
+    { name: 'Administracion', href: '/administracion', icon: BuildingOffice2Icon },
+    { name: 'Usuarios', href: '/usuarios', icon: UsersIcon },
+    { name: 'Retiros', href: '/retiros', icon: ArrowRightStartOnRectangleIcon },
+    { name: 'Bloqueos', href: '/bloqueos', icon: LockClosedIcon },
+    { name: 'Codigos Promocionales', href: '/codigos_promocionales', icon: InformationCircleIcon },
+    { name: 'Reporte Diario', href: '/reporte_diario', icon: ChartBarIcon },
+    { name: 'Mensajes', href: '/mensajes', icon: EnvelopeIcon },
+    { name: 'Registros', href: '/registros', icon: ClipboardDocumentListIcon },
 ];
 
 export default function NavLinks() {
