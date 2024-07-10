@@ -1,9 +1,11 @@
 'use client'
 
+import Usuariostable from "./table"
+
 export default function Page() {
     return (
         <div>
-            <p>Bienvenido a la Página de Usuarios</p>;
+            <Usuariostable />
         </div>
     )
 }

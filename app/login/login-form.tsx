@@ -6,7 +6,6 @@ import { ArrowRightIcon } from '@heroicons/react/20/solid';
 import { Button } from '@/app/lib/button';
 import { userValidation } from '../lib/endPoint';
 import { useState } from 'react';
-// import { useRouter } from 'next/router';
 import { useRouter } from 'next/navigation';
 
 
@@ -24,7 +23,7 @@ export default function LoginForm() {
         localStorage.setItem('loggedIn', 'true');
         localStorage.setItem('userDataEmail', JSON.stringify(email));
         localStorage.setItem('userDataPassword', JSON.stringify(password));
-        router.push('/home');
+        router.push('/dashboard');
       }
     } catch (error) {
       console.error('Error al validar el usuario:', error);

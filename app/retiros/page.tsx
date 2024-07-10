@@ -1,9 +1,11 @@
 'use client'
 
+import Retirostable from "./table"
+
 export default function Page() {
     return (
         <div>
-            <p>Bienvenido a la Página de Retiros</p>;
+            <Retirostable />
         </div>
     )
 }

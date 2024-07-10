@@ -1,9 +1,11 @@
 'use client'
 
+import Promostable from "./table"
+
 export default function Page() {
     return (
         <div>
-            <p>Bienvenido a la Página de Códigos Promocionales</p>;
+            <Promostable/>
         </div>
     )
 }
