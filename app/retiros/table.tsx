@@ -135,7 +135,7 @@ export default function Retirostable() {
                                 {retiro.usdPrice}
                             </td>
                             <td className="whitespace-nowrap px-3 py-3">
-                                {retiro.satoshiSend}
+                                {retiro.SatoshiSend}
                             </td>
                             <td className="whitespace-nowrap px-3 py-3">
                                 {retiro.conversion}
@@ -147,7 +147,7 @@ export default function Retirostable() {
                                 {retiro.videoAdsSum}
                             </td>
                             <td className="whitespace-nowrap px-3 py-3">
-                                {retiro.walletName}
+                                {retiro.WalletName}
                             </td>
                             <td className="whitespace-nowrap px-3 py-3">
                                 {retiro.note}
